@@ -3,23 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		88C55C2F2607EE3E009EEE43 /* WhatsAppCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C55C2E2607EE3E009EEE43 /* WhatsAppCloneApp.swift */; };
-		88C55C312607EE3E009EEE43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C55C302607EE3E009EEE43 /* ContentView.swift */; };
+		88C55C312607EE3E009EEE43 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C55C302607EE3E009EEE43 /* AuthView.swift */; };
 		88C55C332607EE40009EEE43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88C55C322607EE40009EEE43 /* Assets.xcassets */; };
 		88C55C362607EE40009EEE43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88C55C352607EE40009EEE43 /* Preview Assets.xcassets */; };
+		88C55C402607EFF1009EEE43 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88C55C3F2607EFF1009EEE43 /* GoogleService-Info.plist */; };
+		88E6603D260BAF340018DD17 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E6603C260BAF340018DD17 /* UserModel.swift */; };
+		88E66040260BAFC50018DD17 /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E6603F260BAFC50018DD17 /* UserStore.swift */; };
+		88E66043260BC0EA0018DD17 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E66042260BC0EA0018DD17 /* ChatView.swift */; };
+		88E66046260BE5F10018DD17 /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E66045260BE5F10018DD17 /* ChatModel.swift */; };
+		88E66049260BE6CD0018DD17 /* ChatStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E66048260BE6CD0018DD17 /* ChatStore.swift */; };
+		88E6604C260BF0950018DD17 /* ChatRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E6604B260BF0950018DD17 /* ChatRow.swift */; };
+		AA2399FA4019EED3AF53A233 /* Pods_WhatsAppClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1260FBBB2F73E4FD18C8A4A /* Pods_WhatsAppClone.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4732D75E3239FD78A4CE1120 /* Pods-WhatsAppClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsAppClone.release.xcconfig"; path = "Target Support Files/Pods-WhatsAppClone/Pods-WhatsAppClone.release.xcconfig"; sourceTree = "<group>"; };
 		88C55C2B2607EE3E009EEE43 /* WhatsAppClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsAppClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88C55C2E2607EE3E009EEE43 /* WhatsAppCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsAppCloneApp.swift; sourceTree = "<group>"; };
-		88C55C302607EE3E009EEE43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		88C55C302607EE3E009EEE43 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		88C55C322607EE40009EEE43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88C55C352607EE40009EEE43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		88C55C372607EE40009EEE43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88C55C3F2607EFF1009EEE43 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		88E6603C260BAF340018DD17 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		88E6603F260BAFC50018DD17 /* UserStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStore.swift; sourceTree = "<group>"; };
+		88E66042260BC0EA0018DD17 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		88E66045260BE5F10018DD17 /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+		88E66048260BE6CD0018DD17 /* ChatStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatStore.swift; sourceTree = "<group>"; };
+		88E6604B260BF0950018DD17 /* ChatRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRow.swift; sourceTree = "<group>"; };
+		8A1E11A2374A44F8FDA1E71D /* Pods-WhatsAppClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsAppClone.debug.xcconfig"; path = "Target Support Files/Pods-WhatsAppClone/Pods-WhatsAppClone.debug.xcconfig"; sourceTree = "<group>"; };
+		C1260FBBB2F73E4FD18C8A4A /* Pods_WhatsAppClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsAppClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA2399FA4019EED3AF53A233 /* Pods_WhatsAppClone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E512FA9FA7954383BE3DE01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1260FBBB2F73E4FD18C8A4A /* Pods_WhatsAppClone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		515840E06AC5756E1537D651 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A1E11A2374A44F8FDA1E71D /* Pods-WhatsAppClone.debug.xcconfig */,
+				4732D75E3239FD78A4CE1120 /* Pods-WhatsAppClone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		88C55C222607EE3E009EEE43 = {
 			isa = PBXGroup;
 			children = (
 				88C55C2D2607EE3E009EEE43 /* WhatsAppClone */,
 				88C55C2C2607EE3E009EEE43 /* Products */,
+				515840E06AC5756E1537D651 /* Pods */,
+				3E512FA9FA7954383BE3DE01 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,9 +91,11 @@
 			isa = PBXGroup;
 			children = (
 				88C55C2E2607EE3E009EEE43 /* WhatsAppCloneApp.swift */,
-				88C55C302607EE3E009EEE43 /* ContentView.swift */,
+				88E66050260BF0AE0018DD17 /* Model */,
+				88E6604F260BF0A30018DD17 /* View */,
 				88C55C322607EE40009EEE43 /* Assets.xcassets */,
 				88C55C372607EE40009EEE43 /* Info.plist */,
+				88C55C3F2607EFF1009EEE43 /* GoogleService-Info.plist */,
 				88C55C342607EE40009EEE43 /* Preview Content */,
 			);
 			path = WhatsAppClone;
@@ -69,6 +109,27 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		88E6604F260BF0A30018DD17 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				88C55C302607EE3E009EEE43 /* AuthView.swift */,
+				88E66042260BC0EA0018DD17 /* ChatView.swift */,
+				88E6604B260BF0950018DD17 /* ChatRow.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88E66050260BF0AE0018DD17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				88E66045260BE5F10018DD17 /* ChatModel.swift */,
+				88E66048260BE6CD0018DD17 /* ChatStore.swift */,
+				88E6603C260BAF340018DD17 /* UserModel.swift */,
+				88E6603F260BAFC50018DD17 /* UserStore.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88C55C3A2607EE40009EEE43 /* Build configuration list for PBXNativeTarget "WhatsAppClone" */;
 			buildPhases = (
+				534F2BF7C043144A4A9E0638 /* [CP] Check Pods Manifest.lock */,
 				88C55C272607EE3E009EEE43 /* Sources */,
 				88C55C282607EE3E009EEE43 /* Frameworks */,
 				88C55C292607EE3E009EEE43 /* Resources */,
+				3792DC3D0A05F1B9C1FEC9F7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,18 +191,67 @@
 			files = (
 				88C55C362607EE40009EEE43 /* Preview Assets.xcassets in Resources */,
 				88C55C332607EE40009EEE43 /* Assets.xcassets in Resources */,
+				88C55C402607EFF1009EEE43 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3792DC3D0A05F1B9C1FEC9F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhatsAppClone/Pods-WhatsAppClone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhatsAppClone/Pods-WhatsAppClone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhatsAppClone/Pods-WhatsAppClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		534F2BF7C043144A4A9E0638 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhatsAppClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		88C55C272607EE3E009EEE43 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88C55C312607EE3E009EEE43 /* ContentView.swift in Sources */,
+				88E6604C260BF0950018DD17 /* ChatRow.swift in Sources */,
+				88C55C312607EE3E009EEE43 /* AuthView.swift in Sources */,
+				88E6603D260BAF340018DD17 /* UserModel.swift in Sources */,
+				88E66043260BC0EA0018DD17 /* ChatView.swift in Sources */,
+				88E66049260BE6CD0018DD17 /* ChatStore.swift in Sources */,
+				88E66040260BAFC50018DD17 /* UserStore.swift in Sources */,
 				88C55C2F2607EE3E009EEE43 /* WhatsAppCloneApp.swift in Sources */,
+				88E66046260BE5F10018DD17 /* ChatModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +376,7 @@
 		};
 		88C55C3B2607EE40009EEE43 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A1E11A2374A44F8FDA1E71D /* Pods-WhatsAppClone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -286,6 +399,7 @@
 		};
 		88C55C3C2607EE40009EEE43 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4732D75E3239FD78A4CE1120 /* Pods-WhatsAppClone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
